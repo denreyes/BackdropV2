@@ -13,5 +13,7 @@ import io.pntreyes.backdrop20.dagger.app.AppComponent;
 @Component(dependencies = AppComponent.class, modules = MainModule.class)
 public interface MainComponent {
     void inject(MainActivity mainActivity);
-    void inject(MainFragment main);
+    void inject(MainFragment mainFragment);
+
+    MainFragment mainFragment();
 }

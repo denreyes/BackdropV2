@@ -1,20 +1,20 @@
-package io.pntreyes.backdrop20.dagger.main;
+package io.pntreyes.backdrop20.dagger.login;
 
 import android.app.Activity;
 
 import dagger.Module;
 import dagger.Provides;
-import io.pntreyes.backdrop20.MainFragment;
+import io.pntreyes.backdrop20.LoginFragment;
 import io.pntreyes.backdrop20.dagger.PerActivity;
 
 /**
- * Created by Dj on 11/25/2015.
+ * Created by Dj on 11/26/2015.
  */
 @Module
-public class MainModule {
+public class LoginModule{
     Activity activity;
 
-    public MainModule(Activity activity){
+    public LoginModule(Activity activity){
         this.activity = activity;
     }
 
@@ -26,7 +26,7 @@ public class MainModule {
 
     @Provides
     @PerActivity
-    MainFragment provideMainFragment(){
-        return new MainFragment();
+    LoginFragment loginFragment(){
+        return new LoginFragment();
     }
 }

@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 /**
  * Created by Dj on 11/24/2015.
@@ -21,6 +22,8 @@ public class MainFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        ((MainActivity) getActivity()).component().inject(this);
+        Toast.makeText(getActivity(), "HEY", Toast.LENGTH_LONG).show();
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 }
