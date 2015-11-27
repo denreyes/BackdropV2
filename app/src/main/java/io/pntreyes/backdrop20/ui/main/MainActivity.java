@@ -1,13 +1,15 @@
-package io.pntreyes.backdrop20;
+package io.pntreyes.backdrop20.ui.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import javax.inject.Inject;
 
+import io.pntreyes.backdrop20.R;
 import io.pntreyes.backdrop20.dagger.main.DaggerMainComponent;
 import io.pntreyes.backdrop20.dagger.main.MainComponent;
 import io.pntreyes.backdrop20.dagger.main.MainModule;
+import io.pntreyes.backdrop20.ui.App;
 
 public class MainActivity extends AppCompatActivity {
 

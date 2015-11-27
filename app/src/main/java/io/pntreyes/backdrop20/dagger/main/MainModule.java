@@ -4,7 +4,7 @@ import android.app.Activity;
 
 import dagger.Module;
 import dagger.Provides;
-import io.pntreyes.backdrop20.MainFragment;
+import io.pntreyes.backdrop20.ui.main.MainFragment;
 import io.pntreyes.backdrop20.dagger.PerActivity;
 
 /**

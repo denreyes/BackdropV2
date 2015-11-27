@@ -1,13 +1,15 @@
-package io.pntreyes.backdrop20;
+package io.pntreyes.backdrop20.ui.login;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import javax.inject.Inject;
 
+import io.pntreyes.backdrop20.R;
 import io.pntreyes.backdrop20.dagger.login.DaggerLoginComponent;
 import io.pntreyes.backdrop20.dagger.login.LoginComponent;
 import io.pntreyes.backdrop20.dagger.login.LoginModule;
+import io.pntreyes.backdrop20.ui.App;
 
 /**
  * Created by Dj on 11/26/2015.

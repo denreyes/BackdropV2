@@ -1,4 +1,4 @@
-package io.pntreyes.backdrop20;
+package io.pntreyes.backdrop20.ui.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

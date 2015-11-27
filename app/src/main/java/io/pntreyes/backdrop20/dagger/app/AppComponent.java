@@ -5,7 +5,7 @@ import android.app.Application;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import io.pntreyes.backdrop20.App;
+import io.pntreyes.backdrop20.ui.App;
 
 /**
  * Created by Dj on 11/24/2015.

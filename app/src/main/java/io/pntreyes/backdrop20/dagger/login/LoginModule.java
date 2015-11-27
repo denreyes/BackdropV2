@@ -4,7 +4,7 @@ import android.app.Activity;
 
 import dagger.Module;
 import dagger.Provides;
-import io.pntreyes.backdrop20.LoginFragment;
+import io.pntreyes.backdrop20.ui.login.LoginFragment;
 import io.pntreyes.backdrop20.dagger.PerActivity;
 
 /**

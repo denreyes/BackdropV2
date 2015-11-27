@@ -1,4 +1,4 @@
-package io.pntreyes.backdrop20;
+package io.pntreyes.backdrop20.ui;
 
 import android.app.Application;
 
